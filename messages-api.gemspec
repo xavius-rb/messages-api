@@ -5,8 +5,8 @@ require_relative "lib/messages/api/version"
 Gem::Specification.new do |spec|
   spec.name = "messages-api"
   spec.version = Messages::Api::VERSION
-  spec.authors  = ["Emerson Xavier"]
-  spec.email    = ["msxavii@gmail.com"]
+  spec.authors  = [ "Emerson Xavier" ]
+  spec.email    = [ "msxavii@gmail.com" ]
 
   spec.summary = "Wrapper for sending SMS via services like Message Media, Twilio, etc."
   spec.description = "This gem provides a unified interface for sending SMS messages through various service providers, including Message Media and Twilio. It simplifies the process of integrating SMS functionality into your Ruby applications, allowing you to send messages with ease and flexibility."
@@ -31,10 +31,10 @@ Gem::Specification.new do |spec|
   end
   spec.bindir = "exe"
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
+  spec.require_paths = [ "lib" ]
 
   # Uncomment to register a new dependency of your gem
-  # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_dependency "faraday", ">= 2.0"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
