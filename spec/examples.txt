@@ -1,0 +1,17 @@
+example_id                                         | status  | run_time        |
+-------------------------------------------------- | ------- | --------------- |
+./spec/messages/api/configuration_spec.rb[1:1:1]   | passed  | 0.00004 seconds |
+./spec/messages/api/configuration_spec.rb[1:1:2]   | passed  | 0.00044 seconds |
+./spec/messages/api/configuration_spec.rb[1:2:1]   | passed  | 0.00004 seconds |
+./spec/messages/api/configuration_spec.rb[1:2:2]   | passed  | 0.00003 seconds |
+./spec/messages/api/configuration_spec.rb[1:2:3]   | passed  | 0.00003 seconds |
+./spec/messages/api/configuration_spec.rb[1:2:4]   | passed  | 0.00004 seconds |
+./spec/messages/api/configuration_spec.rb[1:3:1:1] | passed  | 0.00004 seconds |
+./spec/messages/api/configuration_spec.rb[1:3:1:2] | passed  | 0.00008 seconds |
+./spec/messages/api/configuration_spec.rb[1:3:1:3] | passed  | 0.00004 seconds |
+./spec/messages/api/configuration_spec.rb[1:3:2:1] | passed  | 0.00005 seconds |
+./spec/messages/api/factory_spec.rb[1:1:1:1]       | passed  | 0.0029 seconds  |
+./spec/messages/api/factory_spec.rb[1:1:2:1]       | passed  | 0.00063 seconds |
+./spec/messages/api/factory_spec.rb[1:1:3:1]       | passed  | 0.00017 seconds |
+./spec/messages/api/factory_spec.rb[1:1:4:1]       | pending | 0.00463 seconds |
+./spec/messages/api_spec.rb[1:1]                   | passed  | 0.00025 seconds |
